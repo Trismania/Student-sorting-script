@@ -1,0 +1,25 @@
+Console.WriteLine("Please enter number of students");
+
+            int tabere = Convert.ToInt32(Console.ReadLine() );
+        string[] numberOfStudents = new string[tabere];
+
+        
+
+            for (int i = 0; i < numberOfStudents.Length; i++)
+            {
+               numberOfStudents[i] = Console.ReadLine();
+            }
+
+            Console.WriteLine("-------------");
+            Console.WriteLine("Here are the students names sorted alphabetically!");
+
+            Array.Sort(numberOfStudents);
+            
+             for (int i = 0; i < numberOfStudents.Length; i++)
+            {
+               Console.WriteLine(numberOfStudents[i]);
+            }
+
+         
+
+         Console.ReadKey();
